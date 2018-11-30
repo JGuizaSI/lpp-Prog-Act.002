@@ -1,0 +1,32 @@
+Cadena [30] nombre 
+Entero edad 
+Caracter genero 
+Real nota 
+Booleano estaMatriculado 
+
+	inicio
+		escriba "Ingrese el nombre del estudiante: " 
+		lea nombre 
+		escriba "Ingrese la edad del estudiante (Solo numero): " 
+		lea edad 
+		escriba "Ingrese el genero del estudiante F/M: " 
+		lea genero 
+		escriba "Ingrese la nota de El estudiante: " 
+		lea nota 
+		escriba "El estudiante esta matriculado? (Verdadero/Falso): " 
+		lea estaMatriculado
+		llamar nueva_linea 
+		escriba "DATOS DEL ESTUDIANTE: "
+		llamar nueva_linea
+		Escriba "Nombre: ",nombre 
+		llamar nueva_linea 
+		escriba "Genero: ",genero 
+		llamar nueva_linea 
+		escriba "Edad: ",edad		
+		llamar nueva_linea 
+		escriba "Nota: ",nota 
+		llamar nueva_linea 
+		escriba "Matriculado: ",estaMatriculado
+		llamar nueva_linea 
+	fin
+		
