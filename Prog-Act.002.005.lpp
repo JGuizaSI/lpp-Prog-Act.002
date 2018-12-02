@@ -13,7 +13,7 @@ Booleano estaMatriculado
 		lea genero 
 		escriba "Ingrese la nota de El estudiante: " 
 		lea nota 
-		escriba "El estudiante esta matriculado? (Verdadero/Falso): " 
+		escriba "El estudiante esta matriculado? (Verdadero escriba 1 / Falso escriba 0): " 
 		lea estaMatriculado
 		llamar nueva_linea 
 		escriba "DATOS DEL ESTUDIANTE: "
